@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'fontello';
+    src: url('fontello.ttf') format('truetype');
+}
+
+
+[class ^="icon-"] {
+    font-family: "fontello";
+    font-style: normal;
+    display: inline-block;
+    width: 1em;
+    text-align: center;
+}
+
+.icon-mail-alt:before {
+    content: '\e804';
+}
